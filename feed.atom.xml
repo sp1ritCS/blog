@@ -5,7 +5,7 @@
 	<subtitle>Personal blog of sp1ritCS</subtitle>
 	<link href="https://sp1rit.ml/"/>
 	<link rel="self" href="https://sp1ritCS.github.io/blog/feed.atom.xml" />
-	<updated>2021-09-03T00:40:06.985418562+00:00</updated>
+	<updated>2021-09-03T09:10:01.731643752+00:00</updated>
 	<author>
 		<name>Florian "sp1rit"</name>
 		<email>sp1ritCS@protonmail.com</email>
@@ -36,19 +36,24 @@
 	</entry>
 	
 	<entry>
-		<id>https://sp1rit.ml/read/eb492771b89ce890d3aa5e96abe319de7e734b71</id>
+		<id>https://sp1rit.ml/read/0c97ef2dc697a6bbe2fcc5b5d67b0671ad358bc9</id>
 		<title>Hello World</title>
-		<updated>2020-08-22T17:11:04+02:00</updated>
+		<updated>2021-09-03T11:05:15+02:00</updated>
 		<author>
-			<name>SpiritCS</name>
-			<email>sp1ritCS@protonmail.com</email>
+			<name>Florian &quot;sp1rit&quot;​</name>
+			<email>sp1rit@disroot.org</email>
 		</author>
 		<content type="html">
 			&lt;h1&gt;Hello World&lt;/h1&gt;
 &lt;p&gt;ATM, I&#39;m still testing!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;how does sha permalinks work?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;---&lt;/em&gt;-----*
+|Key|Value|
+&lt;em&gt;---|-----&lt;/em&gt;&lt;/p&gt;
 
 		</content>
-		<link href="https://sp1rit.ml/read/eb492771b89ce890d3aa5e96abe319de7e734b71"/>
+		<link href="https://sp1rit.ml/read/0c97ef2dc697a6bbe2fcc5b5d67b0671ad358bc9"/>
 		<published>2020-08-22T17:11:04+02:00</published>
 	</entry>
 	
