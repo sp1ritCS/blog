@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim: set ft=xml noexpandtab ts=2 sw=2: -->
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>sp1rit's Blog</title>
+	<subtitle>Personal blog of sp1ritCS</subtitle>
+	<link href="https://sp1rit.ml/"/>
+	<link rel="self" href="https://sp1ritCS.github.io/blog/feed.atom.xml" />
+	<updated>2021-09-03T00:33:12.892797790+00:00</updated>
+	<author>
+		<name>Florian "sp1rit"</name>
+		<email>sp1ritCS@protonmail.com</email>
+		<uri>https://keyoxide.org/hkp/D248BF2F4C6A82A1E0569D897D8C1CD573166D09</uri>
+	</author>
+	<id>https://github.com/sp1ritCS/blog/</id>
+	<generator uri="https://github.com/sp1ritCS/gitfeet" version="0.1.0">gitfeet</generator>
+	<icon>https://raw.githubusercontent.com/sp1ritCS/vueBlog/master/src/assets/logo.svg</icon>
+	<!--logo></logo-->
+	<rights>Copyright (C) 2021 Florian "sp1rit"; Content licensed under the AGPL-3.0 license.</rights>
+
+	
+	<entry>
+		<id>https://sp1rit.ml/read/769c7855a0166ce6bee6b47ae4f9b878839d9869</id>
+		<title>Sorting Testing</title>
+		<updated>2020-08-22T17:11:11+02:00</updated>
+		<author>
+			<name>SpiritCS</name>
+			<email>sp1ritCS@protonmail.com</email>
+		</author>
+		<content type="html">
+			&lt;h1&gt;Sorting testing&lt;/h1&gt;
+&lt;p&gt;To write my sorting impl&lt;/p&gt;
+
+		</content>
+		<link href="https://sp1rit.ml/read/769c7855a0166ce6bee6b47ae4f9b878839d9869"/>
+		<published>2020-08-22T17:11:11+02:00</published>
+	</entry>
+	
+	<entry>
+		<id>https://sp1rit.ml/read/eb492771b89ce890d3aa5e96abe319de7e734b71</id>
+		<title>Hello World</title>
+		<updated>2020-08-22T17:11:04+02:00</updated>
+		<author>
+			<name>SpiritCS</name>
+			<email>sp1ritCS@protonmail.com</email>
+		</author>
+		<content type="html">
+			&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;ATM, I&#39;m still testing!&lt;/p&gt;
+
+		</content>
+		<link href="https://sp1rit.ml/read/eb492771b89ce890d3aa5e96abe319de7e734b71"/>
+		<published>2020-08-22T17:11:04+02:00</published>
+	</entry>
+	
+</feed>
+
