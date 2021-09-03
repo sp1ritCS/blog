@@ -1,0 +1,41 @@
+# vim: set ts=2 sw=2 expandtab:
+name: Update Feed
+
+on:
+  push:
+    branches:
+      - master
+      - actions
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    container:
+      image: registry.opensuse.org/opensuse/tumbleweed:latest
+    steps:
+    - name: Download dependencies 📥
+      run: |
+        zypper dup -y
+        zypper in -y git rsync rust cargo gcc "pkgconfig(libgit2)"
+      env:
+        ZYPP_SINGLE_RPMTRANS: 1
+        ZYPP_MEDIANETWORK: 1
+    - uses: actions/checkout@v2
+    - name: Unshallow Repository 🔗
+      run: git fetch --unshallow
+    - name: Build gitfeet 🔧
+      run: |
+        git clone https://github.com/sp1ritCS/gitfeet.git
+        pushd gitfeet
+        cargo build --release
+        cargo install --root /usr/local/ --path .
+        popd
+    - name: Generate Feed 📰
+      run: |
+        mkdir -p deploy
+        gitfeet > deploy/feed.atom.xml
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.5
+      with:
+        branch: gh-pages
+        folder: deploy

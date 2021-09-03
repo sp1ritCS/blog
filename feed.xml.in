@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vim: set ft=xml noexpandtab ts=2 sw=2: -->
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>sp1rit's Blog</title>
+	<subtitle>Personal blog of sp1ritCS</subtitle>
+	<link href="https://sp1rit.ml/"/>
+	<link rel="self" href="https://sp1ritCS.github.io/blog/feed.atom.xml" />
+	<updated>{ updated }</updated>
+	<author>
+		<name>Florian "sp1rit"</name>
+		<email>sp1ritCS@protonmail.com</email>
+		<uri>https://keyoxide.org/hkp/D248BF2F4C6A82A1E0569D897D8C1CD573166D09</uri>
+	</author>
+	<id>https://github.com/sp1ritCS/blog/</id>
+	<generator uri="https://github.com/sp1ritCS/gitfeet" version="{ gfversion }">gitfeet</generator>
+	<icon>https://raw.githubusercontent.com/sp1ritCS/vueBlog/master/src/assets/logo.svg</icon>
+	<!--logo></logo-->
+	<rights>Copyright (C) 2021 Florian "sp1rit"; Content licensed under the AGPL-3.0 license.</rights>
+
+	{{ for entry in entries }}
+	<entry>
+		<id>{ entry.id }</id>
+		<title>{ entry.title }</title>
+		<updated>{ entry.updated }</updated>
+		<author>
+			<name>{ entry.author.name }</name>
+			<email>{ entry.author.email }</email>
+		</author>
+		<content type="html">
+			{ entry.content }
+		</content>
+		<link href="{ entry.link }"/>
+		<published>{ entry.published }</published>
+	</entry>
+	{{ endfor }}
+</feed>
